@@ -1,0 +1,34 @@
+{
+  "name": "cmp-str",
+  "version": "0.1.0",
+  "description": "Compares 2 strings lexographically",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Chirag Jain",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "is-string": "git+https://github.com/chirgjn/is-string.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chirgjn/cmp-str.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chirgjn/cmp-str/issues"
+  },
+  "homepage": "https://github.com/chirgjn/cmp-str#readme"
+}
